@@ -11,6 +11,11 @@ O desafio proposto consiste em criar um diagrama de classes UML e simular de man
    - Métodos: `exibirPagina(String url)`, `adicionarNovaAba()`, `atualizarPagina()`
    - 
 
+## Ferramentas e tecnologias utilizadas
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
 ## Diagrama UML
 
 Conforme sugerido, foi utilizada a plataforma Mermaid (mermaid.js.org), a qual utiliza de um código compatível com o Markdown.
@@ -36,4 +41,19 @@ classDiagram
         +adicionarNovaAba()
         +atualizarPagina()
   }
+
+```
+
+### Controles e funcionamento
+
+O dispositivo será controlado através de um menu de opções, aonde cada número representará uma opção, sendo eles :
+ - Comandos :
+   - 1 - Reprodutor Musical
+   - 2 - Aparelho Telefonico
+   - 3 - Navegador na Internet
+   - 4 - Sair
+
+
+
+
 
